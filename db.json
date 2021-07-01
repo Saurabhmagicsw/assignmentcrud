@@ -1,0 +1,22 @@
+{
+  "stock": [
+    {
+      "name": "Realme x7 Pro",
+      "total": "360",
+      "inStock": "300",
+      "cat": "Smartphone",
+      "brand": "Realme",
+      "details": "The Realme X7 Pro 5G looks quite similar to the Realme 7 Pro, especially the design of the rear camera module. One-handed use is quite comfortable thanks to the slim body and relatively low weight of 184g. The display is one of the highlights of the Realme X7 Pro which is a 6.55-inch full-HD+ Super AMOLED panel with an in-display fingerprint sensor, 120Hz refresh rate, Gorilla Glass 5, and support for HDR video playback.\n\nAnother feature worth noting is MediaTek's Dimensity 1000+ 5G SoC, a power-efficient SoC with strong CPU and GPU performance. The Realme X7 Pro 5G ran smoothly in the short time I had to test it. I didn't notice any unwarranted heating, system lag, or slowdowns of any kind.\n\nThe Realme X7 Pro 5G is still running Realme UI 1.0, based on Android 10. There's not much that we haven't already seen. It's still flooded with bloatware, although most of that can be removed. The Realme X7 Pro 5G posted strong benchmark numbers, and games such as Oceanhorn and Call of Duty Mobile ran effortlessly.\n\nThe Realme X7 Pro 5G has a familiar camera configuration which we've seen on some of its previous smartphones. You get a 32-megapixel selfie camera on the front, and at the back, there are four sensors which include a 64-megapixel main camera, an 8-megapixel ultra-wide angle camera, a 2-megapixel monochrome camera, and a 2-megapixel macro camera. Daylight performance is good but it struggles to give satisfactory results in low light.",
+      "id": 1
+    },
+    {
+      "name": "Iphone 12",
+      "total": "500",
+      "inStock": "190",
+      "cat": "Mobile",
+      "brand": "Apple",
+      "details": "The iPhone 12 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 15.40 centimetres (6.06 inches) diagonally (actual viewable area is less).",
+      "id": 2
+    }
+  ]
+}
