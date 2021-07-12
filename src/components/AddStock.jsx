@@ -10,7 +10,7 @@ import {
   TextareaAutosize,
 } from "@material-ui/core";
 import { addUser } from "../service/api";
-import { useHistory } from "react-router-dom";
+import { useHistory, NavLink } from "react-router-dom";
 
 const initialValue = {
   name: "",
@@ -49,6 +49,10 @@ const AddStock = () => {
 
   return (
     <FormGroup className={classes.container}>
+      <NavLink className="btn btn-primary" to="/">
+        back to Home
+      </NavLink>
+
       <Typography variant="h4">Add Stock</Typography>
       <FormControl>
         <InputLabel htmlFor="my-input1">Name</InputLabel>

@@ -1,6 +1,10 @@
 import axios from "axios";
 
-const url = "https://my-json-server.typicode.com/Saurabhmagicsw/datbase/stock";
+const produrl =
+  "https://my-json-server.typicode.com/Saurabhmagicsw/datbase/stock";
+const devurl = "http://localhost:3004/stock";
+
+const url = devurl;
 
 export const dashboard = async (id) => {
   id = id || "";

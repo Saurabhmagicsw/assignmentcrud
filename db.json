@@ -3,8 +3,8 @@
     {
       "name": "Realme x7 Pro",
       "total": "360",
-      "inStock": "300",
-      "cat": "Smartphone",
+      "inStock": "360",
+      "cat": "Mobile",
       "brand": "Realme",
       "details": "The Realme X7 Pro 5G looks quite similar to the Realme 7 Pro, especially the design of the rear camera module. One-handed use is quite comfortable thanks to the slim body and relatively low weight of 184g. The display is one of the highlights of the Realme X7 Pro which is a 6.55-inch full-HD+ Super AMOLED panel with an in-display fingerprint sensor, 120Hz refresh rate, Gorilla Glass 5, and support for HDR video playback.\n\nAnother feature worth noting is MediaTek's Dimensity 1000+ 5G SoC, a power-efficient SoC with strong CPU and GPU performance. The Realme X7 Pro 5G ran smoothly in the short time I had to test it. I didn't notice any unwarranted heating, system lag, or slowdowns of any kind.\n\nThe Realme X7 Pro 5G is still running Realme UI 1.0, based on Android 10. There's not much that we haven't already seen. It's still flooded with bloatware, although most of that can be removed. The Realme X7 Pro 5G posted strong benchmark numbers, and games such as Oceanhorn and Call of Duty Mobile ran effortlessly.\n\nThe Realme X7 Pro 5G has a familiar camera configuration which we've seen on some of its previous smartphones. You get a 32-megapixel selfie camera on the front, and at the back, there are four sensors which include a 64-megapixel main camera, an 8-megapixel ultra-wide angle camera, a 2-megapixel monochrome camera, and a 2-megapixel macro camera. Daylight performance is good but it struggles to give satisfactory results in low light.",
       "id": 1
@@ -17,6 +17,45 @@
       "brand": "Apple",
       "details": "The iPhone 12 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 15.40 centimetres (6.06 inches) diagonally (actual viewable area is less).",
       "id": 2
+    },
+    {
+      "name": "Oneplus 8",
+      "total": "500",
+      "inStock": "250",
+      "cat": "Mobile",
+      "brand": "OnePlus",
+      "details": "The OnePlus 8 is the spiritual successor of the OnePlus 7 and will go on to eventually replace the OnePlus 7T. Build quality is excellent thanks to the curved-edge front and back glass sandwiching the metal frame. The buttons are easy to reach, and the alert slider is handy as always.\n\nThe OnePlus 8 has a 6.55-inch AMOLED panel with sloping sides, a wide colour gamut, and a hole-punch cutout in the upper left corner. The 90Hz refresh rate makes usage in general feel fluid and snappy. It also has an in-display fingerprint sensor, which is super quick at authentication. All it takes is a quick, firm tap to unlock it.\n\nWe reviewed the top-end variant of the OnePlus 8, which has 12GB of RAM and 256GB of storage, priced at Rs. 49,999. Gaming performance is top-notch. Fortnite can run at 90fps and the experience is good. Games and movies are especially enjoyable thanks to the very good stereo speakers on the OnePlus 8. OxygenOS is also well equipped with lots of shortcuts and gestures waiting to be discovered. The new launcher now offers a more seamless multitasking experience, there's 5GB of free cloud storage for backups once you sign in with a OnePlus account, a built-in screen recorder, and dynamic wallpapers.\n\nThe OnePlus 8 has the same 48-megapixel Sony IMX586 sensor with optical stabilisation as the 7T. In daylight, it captures detailed images with vivid colours and balanced HDR. The wide-angle camera is also useful. The third macro camera doesn't have good clarity but it can be useful in some instances. The selfie camera was decent under good light but didn't do well in low light.",
+      "id": 3
+    },
+    {
+      "name": "realme 3 pro",
+      "total": "500",
+      "inStock": "50",
+      "cat": "Mobile",
+      "brand": "Realme",
+      "details": "The Realme 3 Pro is the company's latest flagship, designed to take on the Redmi Note 7 Pro from Xiaomi. It features some new colours options and the same small notch and slim bezels as its predecessor, the Realme 2 Pro. The 6.3-inch full-HD+ IPS display produces vivid colours and is very legible under direct sunlight. You also get two Nano-SIM slots and a dedicated spot for a microSD card. \n\nThis is currently the only phone under Rs. 20,000 to sport the recent Qualcomm Snapdragon 710 SoC. It's an efficient chip built on the 10nm fabrication process and features a better GPU compared to a Snapdragon 675, which shows in benchmarks and games. The phone is available in two variants -- 4GB of RAM and 64GB of storage and 6GB of RAM and 128GB of storage, which is what we have. ColorOS 6 is based on Android 9 Pie, which runs smoothly and also gives you plenty of shortcuts and gestures. \n\nApp and gaming performance is very good. The phone doesn't heat up during regular use and even with gaming, barely gets warm. The main 16-megapixel sensor captures detailed landscapes and macros under good light. The secondary 5-megapixel sensor is also good at edge detection. At night, images are generally soft but the Nightscape mode helps in bringing out better detail in objects. Videos can be recorded up to 4K resolution but without stabilisation. Finally, the 4045mAh battery will last you a full day on one charge and a VOOC 3.0 fast charger is bundled in the box.\n\n",
+      "id": 4
+    },
+    {
+      "name": "Dell L-310",
+      "total": "1280",
+      "inStock": "950",
+      "cat": "Laptop",
+      "brand": "Dell",
+      "details": "Processor. The processor is like as the brain of a laptop. ...\nRAM. The memory of your computer is known as RAM. ...\nHard drive. The hard drive or storage is another thing that you should think about when you will buy a laptop.",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "test@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 2,
+      "email": "test2@gmail.com",
+      "password": "123456"
     }
   ]
 }

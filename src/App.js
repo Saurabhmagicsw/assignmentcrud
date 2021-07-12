@@ -6,6 +6,7 @@ import AddStock from "./components/AddStock";
 import Login from "./components/Login";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Edit from "./components/Edit";
+import Details from "./components/Details";
 
 function App() {
   return (
@@ -18,9 +19,11 @@ function App() {
           <Route exact path="/add" component={AddStock} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/edit/:id" component={Edit} />
+          <Route exact path="/details/:id" component={Details} />
           <Route component={NotFound} />
         </Switch>
       </Router>
+      <p className="c">&copy; Saurabh Maurya</p>
     </div>
   );
 }

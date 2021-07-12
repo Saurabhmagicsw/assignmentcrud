@@ -10,7 +10,7 @@ import {
   TextareaAutosize,
 } from "@material-ui/core";
 import { dashboard, editUser } from "../service/api";
-import { useHistory, useParams } from "react-router-dom";
+import { useHistory, useParams, NavLink } from "react-router-dom";
 
 const initialValue = {
   name: "",
@@ -60,6 +60,9 @@ const Edit = () => {
 
   return (
     <FormGroup className={classes.container}>
+      <NavLink className="btn btn-primary" to="/">
+        back to Home
+      </NavLink>
       <Typography variant="h4">Edit Stock</Typography>
       <FormControl>
         <InputLabel htmlFor="my-input1">Name</InputLabel>

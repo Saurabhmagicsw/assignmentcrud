@@ -61,10 +61,10 @@ const Dashboard = () => {
           <TableRow>
             <StyledTableCell>Id</StyledTableCell>
             <StyledTableCell>Item Name</StyledTableCell>
-            <StyledTableCell>Item Name</StyledTableCell>
+            <StyledTableCell>Total Qty</StyledTableCell>
             <StyledTableCell>Stock</StyledTableCell>
-            <StyledTableCell>In Stock</StyledTableCell>
             <StyledTableCell>Type</StyledTableCell>
+            <StyledTableCell>Brand</StyledTableCell>
             <StyledTableCell style={{ textAlign: "center" }}>
               Actions
             </StyledTableCell>
@@ -94,7 +94,7 @@ const Dashboard = () => {
                   variant="contained"
                   style={{ margin: 5 }}
                   component={NavLink}
-                  to={`/edit/${item.id}`}
+                  to={`/details/${item.id}`}
                 >
                   Details
                 </Button>
